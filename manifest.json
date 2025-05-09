@@ -1,0 +1,58 @@
+{
+  "manifest_version": 3,
+  "name": "Brainwave.ai Web Content Extraction and Summarization",
+  "version": "2.3.0",
+  "default_locale": "en",
+  "description": "Select text to save, extract web content, and generate summaries.",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "contextMenus",
+    "scripting",
+    "notifications"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self'",
+    "sandbox": "sandbox allow-scripts allow-forms allow-popups allow-modals; script-src 'self' 'unsafe-inline' 'unsafe-eval'; worker-src 'self'"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "images/icon128.png"
+  },
+  "background": {
+    "service_worker": "js/background.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "js/content/contentExtractor.js",
+        "js/floatingBall/floatingBall.js",
+        "js/content/content.js"
+      ],
+      "run_at": "document_end"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "images/icon128.png",
+        "images/icon128_success.png",
+        "images/icon128_success_reverse.png"
+      ],
+      "matches": [
+        "<all_urls>"
+      ],
+      "use_dynamic_url": true
+    }
+  ],
+  "icons": {
+    "128": "images/icon128.png"
+  }
+}

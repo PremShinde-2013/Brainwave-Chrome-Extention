@@ -1,0 +1,314 @@
+{
+  "popupTitle": {
+    "message": "Blinko Extension",
+    "description": "Popup panel title"
+  },
+  "extensionName": {
+    "message": "Blinko Extension",
+    "description": "Extension name for context menu"
+  },
+  "sendSelectedText": {
+    "message": "Send Selected Text to Blinko",
+    "description": "Context menu for sending selected text"
+  },
+  "saveToQuickNote": {
+    "message": "Save to Quick Note",
+    "description": "Context menu for saving text to quick note"
+  },
+  "saveImageToQuickNote": {
+    "message": "Save Image to Quick Note",
+    "description": "Context menu for saving image to quick note"
+  },
+  "saveImageToBlinko": {
+    "message": "Save Image to Blinko",
+    "description": "Context menu for saving image to Blinko"
+  },
+  "summarizePageContent": {
+    "message": "Summarize Page Content",
+    "description": "Context menu for summarizing page content"
+  },
+  "extractPageContent": {
+    "message": "Extract Page Content",
+    "description": "Context menu for extracting page content"
+  },
+  "notificationSendSuccessTitle": {
+    "message": "Send Success",
+    "description": "Notification title for successful send"
+  },
+  "notificationSendSuccessMessage": {
+    "message": "Selected text has been sent to Blinko successfully.",
+    "description": "Notification message for successful send"
+  },
+  "notificationSendErrorTitle": {
+    "message": "Send Error",
+    "description": "Notification title for failed send"
+  },
+  "notificationExtractSuccessTitle": {
+    "message": "Extract Success",
+    "description": "Notification title for successful content extraction"
+  },
+  "notificationSummarySuccessTitle": {
+    "message": "Summarize Success",
+    "description": "Notification title for successful content summarization"
+  },
+  "notificationExtractSuccessMessage": {
+    "message": "Successfully extracted content from \"%s\" and saved to Blinko",
+    "description": "Notification message for content extraction success"
+  },
+  "notificationSummarySuccessMessage": {
+    "message": "Successfully summarized content from \"%s\" and saved to Blinko",
+    "description": "Notification message for content summarization success"
+  },
+  "notificationExtractSuccessMessagePopup": {
+    "message": "Content extraction for \"%s\" completed. Click on the extension icon to view.",
+    "description": "Notification message for content extraction success when popup is closed"
+  },
+  "notificationSummarySuccessMessagePopup": {
+    "message": "Content summarization for \"%s\" completed. Click on the extension icon to view.",
+    "description": "Notification message for content summarization success when popup is closed"
+  },
+  "notificationExtractErrorTitle": {
+    "message": "Extract Failed",
+    "description": "Notification title for content extraction failure"
+  },
+  "notificationSummaryErrorTitle": {
+    "message": "Summarize Failed",
+    "description": "Notification title for content summarization failure"
+  },
+  "notificationErrorMessage": {
+    "message": "Error during %s \"%s\": %s",
+    "description": "Notification error message with action, title, and error description"
+  },
+  "extractAction": {
+    "message": "Extracting",
+    "description": "The action word when extracting content"
+  },
+  "summaryAction": {
+    "message": "Summarizing",
+    "description": "The action word when summarizing content"
+  },
+  "defaultPage": {
+    "message": "page",
+    "description": "Default string for page name when none provided"
+  },
+  "tabCommon": {
+    "message": "Common",
+    "description": "Common tab text"
+  },
+  "tabQuickNote": {
+    "message": "Quick Note",
+    "description": "Quick note tab text"
+  },
+  "tabSettings": {
+    "message": "Settings",
+    "description": "Settings tab text"
+  },
+  "webSummaryTitle": {
+    "message": "Web Summary",
+    "description": "Web summary section title"
+  },
+  "extractAndSummarizeButton": {
+    "message": "Extract and Summarize Page Content",
+    "description": "Button text for extract and summarize"
+  },
+  "extractContentTitle": {
+    "message": "Extract Web Content",
+    "description": "Extract content section title"
+  },
+  "extractContentButton": {
+    "message": "Extract Web Content",
+    "description": "Button text for content extraction"
+  },
+  "quickNoteTitle": {
+    "message": "Quick Note",
+    "description": "Quick note section title"
+  },
+  "quickNotePlaceholder": {
+    "message": "Enter your notes here, or collect web content via right-click menu...",
+    "description": "Placeholder text for quick note input"
+  },
+  "attachmentListTitle": {
+    "message": "Attachments",
+    "description": "Title for attachment list"
+  },
+  "clearAllButton": {
+    "message": "Clear All",
+    "description": "Button text for clearing all"
+  },
+  "sendButton": {
+    "message": "Send",
+    "description": "Button text for send action"
+  },
+  "clearButton": {
+    "message": "Clear",
+    "description": "Button text for clear action"
+  },
+  "summaryPreviewTitle": {
+    "message": "Summary Preview",
+    "description": "Title for summary preview section"
+  },
+  "summaryTextPlaceholder": {
+    "message": "Summary content will be displayed here...",
+    "description": "Placeholder text for summary content"
+  },
+  "cancelButton": {
+    "message": "Cancel",
+    "description": "Button text for cancel action"
+  },
+  "editAndSaveButton": {
+    "message": "Edit and Save",
+    "description": "Button text for edit and save action"
+  },
+  "settingsTitle": {
+    "message": "Settings",
+    "description": "Settings page title"
+  },
+  "blinkoApiUrlLabel": {
+    "message": "Blinko API URL:",
+    "description": "Label for Blinko API URL input"
+  },
+  "blinkoApiUrlHelp": {
+    "message": "Fill in up to /v1, no need for the complete path",
+    "description": "Help text for API URL input"
+  },
+  "blinkoAuthKeyLabel": {
+    "message": "Blinko Auth Key:",
+    "description": "Label for Blinko auth key input"
+  },
+  "fetchAiConfigButton": {
+    "message": "Get AI Config from Blinko",
+    "description": "Button text for fetching AI configuration"
+  },
+  "openaiApiUrlLabel": {
+    "message": "OpenAI Compatible API URL:",
+    "description": "Label for OpenAI API URL input"
+  },
+  "apiKeyLabel": {
+    "message": "API Key:",
+    "description": "Label for API key input"
+  },
+  "modelNameLabel": {
+    "message": "Model Name:",
+    "description": "Label for model name input"
+  },
+  "temperatureLabel": {
+    "message": "Temperature:",
+    "description": "Label for temperature input"
+  },
+  "promptTemplateLabel": {
+    "message": "Prompt Template:",
+    "description": "Label for prompt template input"
+  },
+  "promptTemplatePlaceholder": {
+    "message": "Please summarize the following content in concise language, highlighting the key points: {content}",
+    "description": "Placeholder for prompt template input"
+  },
+  "includeSummaryUrlLabel": {
+    "message": "Include URL in summary notes",
+    "description": "Label for include URL in summary checkbox"
+  },
+  "includeSummaryUrlHelp": {
+    "message": "Whether to include the original URL when summarizing web pages",
+    "description": "Help text for include URL in summary"
+  },
+  "includeSelectionUrlLabel": {
+    "message": "Include URL when saving selected text",
+    "description": "Label for include URL in selection checkbox"
+  },
+  "includeImageUrlLabel": {
+    "message": "Include URL when saving images",
+    "description": "Label for include URL in image checkbox"
+  },
+  "includeQuickNoteUrlLabel": {
+    "message": "Include URL in quick notes",
+    "description": "Label for include URL in quick note checkbox"
+  },
+  "summaryTagLabel": {
+    "message": "Summary Tag:",
+    "description": "Label for summary tag input"
+  },
+  "selectionTagLabel": {
+    "message": "Selection Tag:",
+    "description": "Label for selection tag input"
+  },
+  "imageTagLabel": {
+    "message": "Image Tag:",
+    "description": "Label for image tag input"
+  },
+  "enableFloatingBallLabel": {
+    "message": "Enable Floating Ball",
+    "description": "Label for enable floating ball checkbox"
+  },
+  "jinaApiKeyLabel": {
+    "message": "Jina Reader API Key:",
+    "description": "Label for Jina Reader API key input"
+  },
+  "useJinaApiKeyLabel": {
+    "message": "Use API Key to accelerate extraction",
+    "description": "Label for use Jina API key checkbox"
+  },
+  "saveWebImagesLabel": {
+    "message": "Save web image links (some images may be blocked by platforms, please use with caution)",
+    "description": "Label for save web images checkbox"
+  },
+  "extractTagLabel": {
+    "message": "Web Clipping Tag:",
+    "description": "Label for extract tag input"
+  },
+  "saveSettingsButton": {
+    "message": "Save Settings",
+    "description": "Button text for save settings"
+  },
+  "resetSettingsButton": {
+    "message": "Reset to Default",
+    "description": "Button text for reset settings"
+  },
+  "showHideButton": {
+    "message": "Show/Hide",
+    "description": "Button text for show/hide password"
+  },
+  "extractingContent": {
+    "message": "Extracting web content...",
+    "description": "Status message when extracting content"
+  },
+  "cannotGetTab": {
+    "message": "Cannot get current tab",
+    "description": "Error message when unable to get current tab"
+  },
+  "settingsSaved": {
+    "message": "Settings saved",
+    "description": "Success message when settings are saved"
+  },
+  "settingsSaveError": {
+    "message": "Failed to save settings: %s",
+    "description": "Error message when saving settings fails"
+  },
+  "settingsReset": {
+    "message": "Settings reset to default",
+    "description": "Success message when settings are reset"
+  },
+  "settingsResetError": {
+    "message": "Failed to reset settings: %s",
+    "description": "Error message when resetting settings fails"
+  },
+  "initializationError": {
+    "message": "Initialization failed: %s",
+    "description": "Error message when initialization fails"
+  },
+  "summaryTagPlaceholder": {
+    "message": "#web/summary",
+    "description": "Placeholder for summary tag input"
+  },
+  "selectionTagPlaceholder": {
+    "message": "#web/selection",
+    "description": "Placeholder for selection tag input"
+  },
+  "imageTagPlaceholder": {
+    "message": "#web/image",
+    "description": "Placeholder for image tag input"
+  },
+  "extractTagPlaceholder": {
+    "message": "#web/clipping",
+    "description": "Placeholder for extract tag input"
+  }
+}
